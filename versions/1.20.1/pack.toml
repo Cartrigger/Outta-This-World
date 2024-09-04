@@ -1,0 +1,13 @@
+name = "Outta This World"
+author = "UTMG"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e1524d7f87bc99e18a3753e2fe69f9209d732a134aba94e184191b19a5ad6f06"
+
+[versions]
+fabric = "0.16.4"
+minecraft = "1.20.1"

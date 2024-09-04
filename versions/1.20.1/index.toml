@@ -1,0 +1,20 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/LICENCE"
+hash = "a3fc76d4f7b233880cc375b1f14837f30810814baf97f66a2e9d70bc59b08623"
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "6f0cbd3c8de69c34134a782b3727740947947884de33d93782293a0f87e73a41"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "86698b1faa9bf449eab492509239372302311092104be467108d7e05127e91f1"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "e8982ca0032795ba98691f32b3adf8f568b7cb5beabbb4587d22c69e1b931faf"
+metafile = true
