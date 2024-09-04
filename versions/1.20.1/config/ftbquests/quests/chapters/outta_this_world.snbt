@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "outta_this_world"
+	group: "7967B1FB7369E0CF"
+	id: "62A3F04BC23D04FC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Outta This World"
+}
