@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "106F59D8A625D907"
+	icon: "create:wrench"
+	id: "40EEE696D061FD64"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to Create, a mod about steampunk tech."
+			""
+			"To start, you need to craft Andesite Alloy to begin with your adventure. This shouldn't be too difficult unless you cannot find Andesite, which shouldn't be a huge problem in this modpack."
+		]
+		id: "3C65F23E2CC74908"
+		rewards: [
+			{
+				exclude_from_claim_all: true
+				id: "046C9B9274C2A93D"
+				table_id: 8506577594830330769L
+				type: "random"
+			}
+			{
+				id: "3C547E58AD22A063"
+				type: "xp"
+				xp: 10
+			}
+		]
+		subtitle: "You gotta start somewhere"
+		tasks: [{
+			count: 2L
+			id: "79007D00DC16400F"
+			item: "create:andesite_alloy"
+			type: "item"
+		}]
+		title: "2 Andesite Alloy"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Create"
+}

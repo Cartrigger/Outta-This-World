@@ -6,6 +6,48 @@
 	id: "62A3F04BC23D04FC"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4FC4808F5CBB20A0"
+			size: 1.0d
+			tasks: [{
+				id: "74D662BC24DD1185"
+				title: "Welcome to OTOTW"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"4FC4808F5CBB20A0"
+				"74D662BC24DD1185"
+			]
+			description: ["{image:ftbteams:textures/teams.png width:100 height:100 align:center}"]
+			id: "0FEBFB339E342912"
+			tasks: [{
+				id: "64BAAFF285A4EEA7"
+				title: "Teams"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4FC4808F5CBB20A0"
+				"74D662BC24DD1185"
+			]
+			id: "55213F6CEBC7980D"
+			tasks: [{
+				id: "176D3AA4EE5F8B0B"
+				title: "Basic Mods"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
 	title: "Outta This World"
 }

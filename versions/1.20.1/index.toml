@@ -5,6 +5,21 @@ file = "mods/LICENCE"
 hash = "a3fc76d4f7b233880cc375b1f14837f30810814baf97f66a2e9d70bc59b08623"
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "034718706cd7bc9baca522753dc62e779d5025ecf7a6a9b9c1d0a2b18b73d967"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "1596f0056944116fc58e9294ede2ecf069f11241ab57836b3096c57a008e67b3"
+metafile = true
+
+[[files]]
+file = "mods/botarium.pw.toml"
+hash = "d4b79652245914a4f376f13a0a11c12b624613be9df788e227572ee7f5281f6c"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "6f0cbd3c8de69c34134a782b3727740947947884de33d93782293a0f87e73a41"
 metafile = true
@@ -15,6 +30,36 @@ hash = "86698b1faa9bf449eab492509239372302311092104be467108d7e05127e91f1"
 metafile = true
 
 [[files]]
+file = "mods/fakerlib.pw.toml"
+hash = "9f2d48ac1a0c6f4f58360a4084a3748ffac3f1963601a11f3722f0df3053a3a8"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "7121db2ef3656272d19fd9210e2d1fc31072ac4fdbc3d98f717807c92460ba77"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "4d4bcf62b73bcc53dbb6d9edfe0ed84b4ad9c267a37807c0c653486add6f89a8"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "04309568425eb622ffab10178d2fae3543788be54aa427ab640aea0c0dd5a4b9"
+metafile = true
+
+[[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "e8982ca0032795ba98691f32b3adf8f568b7cb5beabbb4587d22c69e1b931faf"
+metafile = true
+
+[[files]]
+file = "mods/zenith-attributes.pw.toml"
+hash = "676eb2698f4066c592d336eb360353f8f0b494fb1dd5a0886e99128350913802"
+metafile = true
+
+[[files]]
+file = "mods/zenith.pw.toml"
+hash = "c72636867ca6bcdd20485502481976a53fe87c1ea6ff39acfd28ecd7ccea7a03"
 metafile = true

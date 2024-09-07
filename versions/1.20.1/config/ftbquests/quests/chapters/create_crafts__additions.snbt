@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "create_crafts__additions"
 	group: "657128A224E7D3A2"
+	icon: "createaddition:electric_motor"
 	id: "13616BF4E7800A3D"
 	order_index: 1
 	quest_links: [ ]

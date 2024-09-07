@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mega_cells"
+	group: "657128A224E7D3A2"
+	icon: {
+		Count: 1
+		id: "megacells:item_storage_cell_256m"
+		tag: { }
+	}
+	id: "00BEA29DD8BEBDB7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "MEGA Cells"
+}

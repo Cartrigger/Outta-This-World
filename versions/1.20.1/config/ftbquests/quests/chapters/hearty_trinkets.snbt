@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hearty_trinkets"
+	group: "34D776B8021E8962"
+	icon: "heartytrinkets:canister_belt"
+	id: "4EFF3CCB4A7BA548"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Hearty Trinkets"
+}

@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "106F59D8A625D907"
+	icon: {
+		Count: 1
+		id: "ae2:item_storage_cell_256k"
+		tag: { }
+	}
+	id: "03080D2A886F3134"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: "ae2:sky_stone_block"
+		id: "1EF8CF7AF80E572A"
+		size: 1.5d
+		tasks: [{
+			id: "69FE8740DB45795F"
+			structure: "ae2:meteorite"
+			title: "Found Meteor"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Applied Energistics 2"
+}

@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zenith"
+	group: "34D776B8021E8962"
+	icon: {
+		Count: 1
+		id: "zenith:gem"
+		tag: {
+			affix_data: {
+				rarity: "zenith:common"
+			}
+			gem: "zenith:core/warlord"
+		}
+	}
+	id: "17928FCDC3A9B502"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Zenith"
+}

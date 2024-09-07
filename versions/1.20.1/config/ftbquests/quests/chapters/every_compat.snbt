@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "every_compat"
+	group: "585992CCFEFF4D56"
+	id: "2BEF578C41F65C25"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Every Compat"
+}
