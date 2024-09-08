@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ending_travel"
+	group: "3C2BEF55D3F5E9B1"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "392DF55241E75C72"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ending Travel"
+}

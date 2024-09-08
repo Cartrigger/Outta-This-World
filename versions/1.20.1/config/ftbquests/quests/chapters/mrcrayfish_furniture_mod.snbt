@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mrcrayfish_furniture_mod"
+	group: "585992CCFEFF4D56"
+	icon: "refurbished_furniture:oak_chair"
+	id: "39D0E3E8FDE0CC04"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"MrCrayFish's Furniture mod is now on Fabric, meaning we can have it at home and at our workplace."
+			""
+			"This takes exactly what you need to start on MrCrayfish's new Furniture mod. You need Coal energy to turn on the power, wrench to connect, and of course a workbench to create furniture."
+		]
+		id: "63F18B19E3C75990"
+		rewards: [
+			{
+				id: "5E7FBAA559F50AB7"
+				type: "xp"
+				xp: 10
+			}
+			{
+				exclude_from_claim_all: true
+				id: "6C4BA703C9D3CE82"
+				table_id: 5490916772500652341L
+				type: "random"
+			}
+		]
+		size: 1.5d
+		subtitle: "A small 0x0 house"
+		tasks: [
+			{
+				id: "3C4EE32B894FA471"
+				item: "refurbished_furniture:wrench"
+				type: "item"
+			}
+			{
+				id: "15E618D07EA4CA8D"
+				item: "refurbished_furniture:light_electricity_generator"
+				type: "item"
+			}
+			{
+				id: "79E6AA35E498B3F6"
+				item: "refurbished_furniture:workbench"
+				type: "item"
+			}
+		]
+		title: "Eco Friendly Wood Vineer"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "MrCrayfish Furniture Mod"
+}

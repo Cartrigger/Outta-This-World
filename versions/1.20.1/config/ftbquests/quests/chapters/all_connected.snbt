@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "all_connected"
+	group: "7967B1FB7369E0CF"
+	id: "0BB6A155D81C4F43"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["KubeJS update will bring the modpack full circle, where every block will be needed. For now, that is not ready and not learnt. Please commit KubeJS changes if you want to help."]
+		id: "4CD61E16B5842DCD"
+		subtitle: "Wait till KubeJS!"
+		tasks: [{
+			id: "31A8563802F586FF"
+			title: "Also not finished"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "All Connected"
+}
