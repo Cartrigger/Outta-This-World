@@ -15,8 +15,28 @@ hash = "1596f0056944116fc58e9294ede2ecf069f11241ab57836b3096c57a008e67b3"
 metafile = true
 
 [[files]]
+file = "mods/bosses-of-mass-destruction.pw.toml"
+hash = "31a75fd95d5c670301f8f135ae702e6913a43a7605a28e44425f4838b30f338e"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 hash = "d4b79652245914a4f376f13a0a11c12b624613be9df788e227572ee7f5281f6c"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "b3503cb0b7eae56e27e1d7980882795c0b81f4750ec9b140beb996a9d7c0dfb3"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "a89dfcc985612a275975d4823a24fc3dceb244bacb2e8f81bd459283bf1b9fe9"
+metafile = true
+
+[[files]]
+file = "mods/colorful-hearts.pw.toml"
+hash = "95c45850d45a26bd83bb3c103129899279a341916875bb2d772b3cc79de2c728"
 metafile = true
 
 [[files]]
@@ -30,8 +50,18 @@ hash = "86698b1faa9bf449eab492509239372302311092104be467108d7e05127e91f1"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "508af0c05e63443f8179d0b5a34731735fc215872318b23e26df4487d260a36b"
+metafile = true
+
+[[files]]
 file = "mods/fakerlib.pw.toml"
 hash = "9f2d48ac1a0c6f4f58360a4084a3748ffac3f1963601a11f3722f0df3053a3a8"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "bd0c76f438f67e2611fa8458ab153be304acfb4aaed4acebd0dcdfbbb74f1388"
 metafile = true
 
 [[files]]
