@@ -10,6 +10,11 @@ hash = "034718706cd7bc9baca522753dc62e779d5025ecf7a6a9b9c1d0a2b18b73d967"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "0cbcd58c49decc0ecbccd330fcc8326e3b8769e22e1740e229f09541acf3df7f"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "1596f0056944116fc58e9294ede2ecf069f11241ab57836b3096c57a008e67b3"
 metafile = true
@@ -40,8 +45,38 @@ hash = "95c45850d45a26bd83bb3c103129899279a341916875bb2d772b3cc79de2c728"
 metafile = true
 
 [[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "26394151533372bce2229f31c8df7f65e2deb751cc823f317cd30682381acc8f"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "d7efd7d686ed6465c3eb2a71a5be177876a774388fbb31804c29f3c55141b8df"
+metafile = true
+
+[[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "44c45b4769e2a419cb455b02fdb29fb763c09ec4cde3e4142fc0ab460c39fd35"
+metafile = true
+
+[[files]]
+file = "mods/dawn.pw.toml"
+hash = "e6cd8a58a2938b799035c66df16b440db0edf09c798978b8e857a6a27e8a6474"
+metafile = true
+
+[[files]]
+file = "mods/deeperdarker.pw.toml"
+hash = "0cfe2e9a94ca2b201aa1c29faee2c9d262a77afd5c06afa11e33f53bad2675a1"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "6f0cbd3c8de69c34134a782b3727740947947884de33d93782293a0f87e73a41"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "303bd43247bf2f860e95c32632081a7dafb2022fb347b1df96c7bed1b6bbcc71"
 metafile = true
 
 [[files]]
@@ -60,13 +95,63 @@ hash = "9f2d48ac1a0c6f4f58360a4084a3748ffac3f1963601a11f3722f0df3053a3a8"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "e9de43692ebf479315a611d3dc5c332c7bd8163daf77b507cba47f843a03eb4d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "8a7f673c71c9523fded9f5bfd607424f8d6109d7d3b387ce703e86f28d4d9cf5"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+hash = "65230127d2f844c7feabe3883f93125b2eb0d354c14a9cbbd81bdc6b668cb490"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+hash = "4b6e750998339114bf081528a710bf1f0090b52b9c83b971a727dd55157b67f7"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "bd0c76f438f67e2611fa8458ab153be304acfb4aaed4acebd0dcdfbbb74f1388"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "0f31ab5d2bb9e8d06f0cb635bf3089737459a1d04501ff3f9c4ff2b01ec32d91"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "7121db2ef3656272d19fd9210e2d1fc31072ac4fdbc3d98f717807c92460ba77"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "c6d4020aa88b306b8db66863cf659f904857a96b24ecd1956da08b00e943ba9a"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
+metafile = true
+
+[[files]]
+file = "mods/pandalib.pw.toml"
+hash = "900833abd36f0ee86bec744a031c4bc0ac11f13efcda83b9e26b4a89bc12b9a8"
+metafile = true
+
+[[files]]
+file = "mods/pandas-falling-trees.pw.toml"
+hash = "2f3066495ac5c5817979fcd2e52036aae2606747f285b673f3fcb0f8672c9622"
+metafile = true
+
+[[files]]
+file = "mods/particular.pw.toml"
+hash = "e868456c1197e71712b605a6a9920f422005d8ddf6c6e4ad0d88f6524f82c748"
 metafile = true
 
 [[files]]
@@ -80,8 +165,48 @@ hash = "04309568425eb622ffab10178d2fae3543788be54aa427ab640aea0c0dd5a4b9"
 metafile = true
 
 [[files]]
+file = "mods/ruok.pw.toml"
+hash = "0ea0e78145e57e80bd04253686c289fc56222a1f6f1b2a9d9526ae15665ace17"
+metafile = true
+
+[[files]]
+file = "mods/starlight.pw.toml"
+hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
+metafile = true
+
+[[files]]
+file = "mods/sushi-bar.pw.toml"
+hash = "c47ffe7736fb97aac90cb76b9e6959bb3832686163d782857cdf6cc4853f5cb6"
+metafile = true
+
+[[files]]
+file = "mods/things.pw.toml"
+hash = "85182812adebb8cd80ce042b5612bc8ddadb0317fa92d932d98c4e1596906e49"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "07619668821f2aad9dbd40084ad80f25595d8715a9ef204a4a9629225729a7d9"
+metafile = true
+
+[[files]]
+file = "mods/universal_ores.pw.toml"
+hash = "a31a9db89b6b0a610ae4b78edcf0f20527e6bde59bf47814d0d817be7c9a9dd6"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft-compat.pw.toml"
+hash = "ec489e402d6e771a916f894fd7820e102a1f5236c307fa02e9760d9619f5cc50"
+metafile = true
+
+[[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "e8982ca0032795ba98691f32b3adf8f568b7cb5beabbb4587d22c69e1b931faf"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "5aa508141e85bc3e7e94e9a6df06fa50365623af4b83f94540a81433bb0df318"
 metafile = true
 
 [[files]]
