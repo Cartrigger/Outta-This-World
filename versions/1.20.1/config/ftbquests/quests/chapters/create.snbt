@@ -7,36 +7,284 @@
 	id: "40EEE696D061FD64"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"Welcome to Create, a mod about steampunk tech."
-			""
-			"To start, you need to craft Andesite Alloy to begin with your adventure. This shouldn't be too difficult unless you cannot find Andesite, which shouldn't be a huge problem in this modpack."
-		]
-		id: "3C65F23E2CC74908"
-		rewards: [
-			{
-				exclude_from_claim_all: true
-				id: "046C9B9274C2A93D"
-				table_id: 8506577594830330769L
-				type: "random"
-			}
-			{
-				id: "3C547E58AD22A063"
+	quests: [
+		{
+			description: [
+				"Welcome to Create, a mod about steampunk tech."
+				""
+				"To start, you need to craft Andesite Alloy to begin with your adventure. This shouldn't be too difficult unless you cannot find Andesite, which shouldn't be a huge problem in this modpack."
+			]
+			id: "3C65F23E2CC74908"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "046C9B9274C2A93D"
+					table_id: 8506577594830330769L
+					type: "random"
+				}
+				{
+					id: "3C547E58AD22A063"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "You gotta start somewhere"
+			tasks: [{
+				count: 2L
+				id: "79007D00DC16400F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "2 Andesite Alloy"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C65F23E2CC74908"]
+			description: [
+				"Andesite Casings are the start to early Create"
+				""
+				"Very easy to create, right click a stripped log with andesite alloy, to create it."
+				""
+				"You can pick them up using the Create Wrench. We wont be talking about that for now."
+			]
+			id: "27976D6E88BE3247"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "614F361F4566141B"
+					table_id: 8506577594830330769L
+					type: "random"
+				}
+				{
+					id: "032169368F0183BC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "To start "
+			tasks: [{
+				id: "2491035F4DB6AB83"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C65F23E2CC74908"]
+			id: "1D813640E98AE270"
+			rewards: [
+				{
+					id: "5DBE5729493D5410"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0489F9A26C2553B1"
+					table_id: 8506577594830330769L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5E5B016C979EEA4A"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D813640E98AE270"
+				"27976D6E88BE3247"
+				"73C7329ABE8D4995"
+			]
+			description: [
+				"You are now in the pressing age, you can now press goods."
+				""
+				"Using a mechanical press means you can make plates of things like iron which is needed to progress in this modpack."
+			]
+			id: "1B330EDA771714B0"
+			rewards: [{
+				id: "2902EA61389D25B6"
 				type: "xp"
 				xp: 10
-			}
-		]
-		subtitle: "You gotta start somewhere"
-		tasks: [{
-			count: 2L
-			id: "79007D00DC16400F"
-			item: "create:andesite_alloy"
-			type: "item"
-		}]
-		title: "2 Andesite Alloy"
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			subtitle: "Important to Space"
+			tasks: [{
+				id: "3605D6D2BC033ED4"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C65F23E2CC74908"]
+			description: ["A Basin is put down to get used by a Mechanical Mixer, Most commonly used to make brass"]
+			id: "7CCC5DA67785FE51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "253907031DA7E16B"
+				table_id: 8506577594830330769L
+				type: "random"
+			}]
+			subtitle: "You need a basin!"
+			tasks: [{
+				id: "0F9DC2685C72DCB9"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D813640E98AE270"]
+			id: "7C6223156C4B3C23"
+			rewards: [
+				{
+					id: "28266C3657C7E43C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B57E213218A5C73"
+					table_id: 8506577594830330769L
+					type: "random"
+				}
+			]
+			subtitle: "Shaft + Wood = Cogwheel"
+			tasks: [{
+				count: 2L
+				id: "0FC49C1E97795076"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7C6223156C4B3C23"
+				"73C7329ABE8D4995"
+			]
+			id: "39546CC69E87E3AB"
+			tasks: [{
+				id: "0C0E0D35032A2235"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B330EDA771714B0"]
+			id: "6143169D9E2057A2"
+			tasks: [{
+				id: "63BB6D9FD686CFFC"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6143169D9E2057A2"]
+			description: [
+				"Wow, you really stole a Blaze, how dare you."
+				""
+				"No but really, nice job on figuring it out yourself, unless you looked it up on Google, then no props to you."
+			]
+			id: "69DE35DF7BA12DCB"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "204DA2A81512280C"
+					table_id: 5648881156047722765L
+					type: "random"
+				}
+				{
+					id: "3CCDCA6C3F552E27"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "2B2T - Labor"
+			tasks: [{
+				id: "437776C20A4B48C1"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"39546CC69E87E3AB"
+				"69DE35DF7BA12DCB"
+				"7CCC5DA67785FE51"
+			]
+			description: [
+				"You mixed up some Zink and some Iron, then got some Brass."
+				""
+				"Make sure to have lots as you will need it for the other half of Create."
+				""
+				"Welcome to the Brass age."
+			]
+			id: "670507F84ECAC950"
+			subtitle: "Onto Part 2!"
+			tasks: [{
+				id: "4A8015E96BDFB4C9"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C65F23E2CC74908"]
+			description: [
+				"A hand crank is a very simple machine, you right click or shift right click to rotate."
+				""
+				"It uses a small amount of hunger for this, and very little SU is made. You need a better solution for anything other than early game."
+			]
+			id: "73C7329ABE8D4995"
+			subtitle: "You cant take RPM and SU for free"
+			tasks: [{
+				id: "2831B39B2F3DC4D5"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "5E051E171B54BCD1"
+			tasks: [{
+				id: "0F67D1461F87B6C7"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C6223156C4B3C23"]
+			id: "75025B582C6E99C9"
+			subtitle: "beeg cogwheel"
+			tasks: [{
+				id: "78A0A0D7DD90BCC4"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+	]
 	title: "Create"
 }

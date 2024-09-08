@@ -6,6 +6,15 @@
 	id: "2BEF578C41F65C25"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "29AEED4963E0ABE6"
+		tasks: [{
+			id: "2641E2F31B392936"
+			title: "New Wood type? Furniture for it."
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Every Compat"
 }

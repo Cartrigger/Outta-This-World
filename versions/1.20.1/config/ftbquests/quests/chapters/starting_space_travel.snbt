@@ -7,6 +7,32 @@
 	id: "2AC3D78E974574BC"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["1B330EDA771714B0"]
+		description: ["You need this to create Ad Astra steel, which you can then press with your new spangled press from Create to make yourself ready."]
+		id: "0C6815B4C9737445"
+		rewards: [
+			{
+				id: "3FFF3B5D389558A2"
+				item: "ad_astra:steel_ingot"
+				random_bonus: 3
+				type: "item"
+			}
+			{
+				id: "2CB107217FD2D5A0"
+				type: "xp"
+				xp: 10
+			}
+		]
+		size: 2.0d
+		subtitle: "Steel Time!"
+		tasks: [{
+			id: "0389434BE142A84C"
+			item: "ad_astra:etrionic_blast_furnace"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Starting Space Travel"
 }

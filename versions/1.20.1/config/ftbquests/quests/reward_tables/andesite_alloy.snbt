@@ -14,6 +14,8 @@
 	rewards: [
 		{ count: 2, item: "create:andesite_alloy", random_bonus: 10 }
 		{ count: 2, item: "create:shaft", random_bonus: 4 }
+		{ count: 2, item: "create:andesite_casing", random_bonus: 3 }
+		{ count: 2, item: "create:cogwheel", random_bonus: 3 }
 	]
 	title: "Andesite Alloy"
 }

@@ -16,6 +16,17 @@
 	id: "17928FCDC3A9B502"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Zenith"
+	quests: [{
+		id: "3D5B2088F93D48F7"
+		tasks: [{
+			advancement: "zenith:affix/gem"
+			criterion: ""
+			id: "4CFDEBA09E9656B3"
+			title: "Find a Apothesis / Zenith Gem"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Apothesis / Zenith"
 }

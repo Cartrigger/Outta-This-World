@@ -5,8 +5,386 @@
 	group: "34D776B8021E8962"
 	icon: "heartytrinkets:canister_belt"
 	id: "4EFF3CCB4A7BA548"
+	images: [{
+		height: 4.0d
+		image: "heartytrinkets:item/canister_belt"
+		rotation: 0.0d
+		width: 4.0d
+		x: 1.5d
+		y: -7.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"You will need red hearts for the first tier, Red heart canisters and such."
+				""
+				"You will also want them for the belt as it is cheaper than all other hearts, as it's less rare."
+			]
+			id: "2FEEE6487E4155C1"
+			rewards: [{
+				id: "3AC9CED08EECFC2D"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "awh its a small red heart :)"
+			tasks: [{
+				id: "1513F5EF825CC818"
+				item: "heartytrinkets:red_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FEEE6487E4155C1"]
+			id: "45E2450566227AAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E2A71D62735287E"
+					table_id: 591668800727587487L
+					type: "random"
+				}
+				{
+					id: "6C6A91A0E77F47C6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "High health for a low price"
+			tasks: [{
+				count: 2L
+				id: "683FCC0714773E47"
+				item: "heartytrinkets:canister_belt"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FEEE6487E4155C1"]
+			id: "166E0DAF184B7522"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "216E0A4DFDF8EDBB"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27E6E8F8DE482CC8"
+				item: "heartytrinkets:red_heart_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0AC390CE2683AA3A"
+			rewards: [{
+				id: "23988BC0671271B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B0948AB537AD2CB"
+				item: "heartytrinkets:orange_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "145588D099E0B5FB"
+			rewards: [{
+				id: "699A7A33F6A26C22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66FB480E45ED84CE"
+				item: "heartytrinkets:green_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "079BD0623DA53BD7"
+			rewards: [{
+				id: "040FCBE624BCB8AB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "11D67D4B09C7AB69"
+				item: "heartytrinkets:blue_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AC390CE2683AA3A"]
+			id: "15A8B82F9134F8D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54DB0972E10ED980"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A7EA1036063B048"
+				item: "heartytrinkets:orange_heart_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["145588D099E0B5FB"]
+			id: "6C2673726C2210E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62FBCF06472FA31E"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "605E7947859CB88C"
+				item: "heartytrinkets:green_heart_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["079BD0623DA53BD7"]
+			id: "3A0C28FAA45FA48C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1B31C2A94F732F"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "131A300344183E21"
+				item: "heartytrinkets:blue_heart_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3A0C28FAA45FA48C"
+				"7DE40A86FBDF7479"
+			]
+			id: "4BC6AC3F0C975692"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01C675ECDC6DE57F"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7AD8DDDA136A8565"
+				item: "heartytrinkets:blue_heart_canister"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7DE40A86FBDF7479"
+				"6C2673726C2210E7"
+			]
+			id: "5865AB7703E5E339"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "718E613E13D8F235"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C193DA76F05837B"
+				item: "heartytrinkets:green_heart_canister"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"15A8B82F9134F8D8"
+				"7DE40A86FBDF7479"
+			]
+			id: "087DF880D5F4BB83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EDDE8D78F0DB5EE"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C7B49109DC3EED0"
+				item: "heartytrinkets:orange_heart_canister"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"166E0DAF184B7522"
+				"7DE40A86FBDF7479"
+			]
+			id: "639FAD70D1045E03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44798EB252A40C3F"
+				table_id: 591668800727587487L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E79B6B6ACD3792F"
+				item: "heartytrinkets:red_heart_canister"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "7DE40A86FBDF7479"
+			rewards: [{
+				id: "01C62FAEBEDDE78E"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "2040684B8DE56D84"
+				item: "heartytrinkets:canister"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"05C45A8267CFBA3E"
+				"1A300892EAD0C109"
+			]
+			id: "3DBAA94BE361D379"
+			rewards: [{
+				id: "47DC1C2FA8FB7BA4"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Overpowered at a high price"
+			tasks: [
+				{
+					count: 10L
+					id: "58B6994526CE30DB"
+					item: "heartytrinkets:red_heart_canister"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "031A8559CA6E36EA"
+					item: "heartytrinkets:orange_heart_canister"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "69BD0096E6287A4A"
+					item: "heartytrinkets:green_heart_canister"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "665ED8B79BC518FB"
+					item: "heartytrinkets:blue_heart_canister"
+					type: "item"
+				}
+			]
+			title: "Set for Life Blade"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"639FAD70D1045E03"
+				"087DF880D5F4BB83"
+				"5865AB7703E5E339"
+				"4BC6AC3F0C975692"
+				"45E2450566227AAE"
+			]
+			id: "05C45A8267CFBA3E"
+			rewards: [{
+				id: "4CF067A87239C4C5"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Unkillable for a high price"
+			tasks: [
+				{
+					count: 10L
+					id: "4961CDC5341C4A8E"
+					item: "heartytrinkets:red_heart_canister"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "63364AD6B783ECB1"
+					item: "heartytrinkets:orange_heart_canister"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4637C4D5091D9270"
+					item: "heartytrinkets:green_heart_canister"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "58C013AC493AB4A9"
+					item: "heartytrinkets:blue_heart_canister"
+					type: "item"
+				}
+			]
+			title: "Set for Heart Canister Belt"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45E2450566227AAE"]
+			id: "1A300892EAD0C109"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24AE657283D9B07F"
+					table_id: 591668800727587487L
+					type: "random"
+				}
+				{
+					id: "53E4E5993105F9C1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Lots of Damage at a low price"
+			tasks: [{
+				id: "6FB7863E84E68973"
+				item: "heartytrinkets:life_blade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+	]
 	title: "Hearty Trinkets"
 }
